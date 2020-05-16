@@ -1,27 +1,14 @@
 ---
-title: Linux基础
+title: Linux启动与关机过程
 date: 2020-02-28 23:04:41
-tags: Linux
+tags:
+- Linux
+categories:
+- Linux
+toc: true
 ---
-## Linux Distributes
-
-查看系统信息
-
-```shell
-  uname -a          # 显示计算机及操作系统相关信息
-  lsb_release -a    # 查看系统版本信息
-  cat /proc/version # 查看系统正在运行的内核版本
-  cat /etc/issue    # 查看发行版本信息
-  neofetch          # 查看计算机配置
-```
-## Linux桌面环境
-
-- X Window
-- KDE（K Desktop Environment）
-- GNOME（the GNU Network Object Model Environment）
-- Unity
-
-
+本文介绍Linux的基础命令与工具
+<!--more-->
 ## Linux 启动过程
 
 1. 内核的引导：BIOS自检，操作系统接管硬件，读入/boot目录下的内核文件
